@@ -1,0 +1,5 @@
+# Carpeta propia de IntelliJ IDEA
+/.idea/
+
+# Archivo raro
+serverInitializer.iml
