@@ -12,6 +12,7 @@ public class GeneralBS {
 
     public static void copyEarFileToServer(String fromDirectory, String serverDirectory) throws IOException {
         File from = new File(fromDirectory);
+        //TODO - Delete if existe server file
         File server = new File(serverDirectory);
         Files.copy(from.toPath(), server.toPath());
     }
